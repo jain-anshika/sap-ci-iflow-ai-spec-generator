@@ -1,7 +1,7 @@
 {
-  "gemini_api_url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
-  "gemini_api_key": "your_api_key",
-  "source_xml_path": "iFlow_file_path",
-  "target_docx_path": "output_file_path//output.docx",
-  "groovy_scripts_folder": "Groovy_script_folder_path"
-}  
+	"gemini_api_url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+	"gemini_api_key": "YOUR_API_KEY_HERE",
+	"source_xml_path": "C:/path/to/your/source.iflw",
+	"target_docx_path": "C:/path/to/output.docx",
+	"groovy_scripts_folder": "C:/path/to/groovy/scripts"
+}
