@@ -515,12 +515,7 @@ def generate_iflow_spec():
         f"Describe the main components and flow of the message in the iFlow named {iflow_name} from Sender system to Receiver system.",
     )
     add_paragraph(doc, design_text)
-    diagram_path = "bpmn_diagram.png"
-    create_bpmn_diagram_horizontal(root, diagram_path)
-    doc.add_picture(diagram_path, width=Inches(6))
-    add_paragraph(
-        doc, "Figure: High level BPMN iFlow message and sequence flow", center=True
-    )
+    # Diagram generation temporarily removed
     # doc.add_page_break()
 
     # 4. Message Flow
