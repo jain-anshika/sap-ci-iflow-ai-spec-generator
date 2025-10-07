@@ -34,7 +34,7 @@ pip install python-docx matplotlib networkx requests
 ```
 
 
-## 6. Configure API Keys and Paths
+## 5. Configure API Keys and Paths
 
 Before running the script, open `config_file.json` in a text editor and update the following fields:
 
@@ -55,7 +55,7 @@ Example:
 }
 ```
 
-## 7. Run the Script
+## 6. Run the Script
 
 Execute the main script:
 
